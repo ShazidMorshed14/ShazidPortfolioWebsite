@@ -874,7 +874,7 @@ section{
         margin: 0;
         display: grid;
         grid-template-columns:100%;
-        grid-template-rows: auto 1fr 25% 43% 43% 43% 43% 35% 60% 60% 60% 60% 160% 50% 100% 30%;
+        grid-template-rows: auto 1fr 25% 50% 50% 50% 50% 35% 60% 60% 60% 60% 160% 50% 100% 30%;
         grid-template-areas: 
         "header "
         "top"
