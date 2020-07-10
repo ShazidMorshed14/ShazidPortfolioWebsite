@@ -3,9 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 body,html{
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
