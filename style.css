@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 body,html{
-    
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
 
 body{
-    margin: 0 auto;
+    margin: 0;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 10% 100% 40% 80% 40% 80% 104% 90% 45%;
+    grid-template-rows: auto 100% 40% 80% 40% 80% 104% 90% 45%;
     grid-template-areas: 
     "header header header header "
     "top top top top"
@@ -33,7 +33,7 @@ header{
     position: fixed;
     z-index: 100;
     opacity: 0.9;
-    
+    width: 100%;
     
     
     
@@ -372,7 +372,6 @@ header{
     cursor: pointer;
     transition: color 0.5s ease;
     font-weight: 600;
-    max-width: 500px;
   
 
 }
@@ -396,7 +395,6 @@ header{
     position: absolute;
     opacity: .5;
     z-index: -1;
-    
     
 }
 
@@ -435,7 +433,6 @@ header{
     cursor: pointer;
     transition: color 0.5s ease;
     font-weight: 600;
-    max-width: 500px;
   
 
 }
@@ -489,7 +486,6 @@ header{
     cursor: pointer;
     transition: color 0.5s ease;
     font-weight: 600;
-    max-width: 500px;
   
 
 }
@@ -548,7 +544,7 @@ header{
     cursor: pointer;
     transition: color 0.5s ease;
     font-weight: 600;
-    max-width: 500px;
+  
 
 }
 
@@ -873,7 +869,7 @@ section{
         margin: 0;
         display: grid;
         grid-template-columns:100%;
-        grid-template-rows: 10% 1fr 25% 43% 43% 43% 43% 35% 60% 60% 60% 50% 170% 50% 100% 30%;
+        grid-template-rows: auto 1fr 25% 43% 43% 43% 43% 35% 50% 50% 50% 50% 150% 50% 100% 30%;
         grid-template-areas: 
         "header "
         "top"
@@ -999,7 +995,7 @@ section{
      .navigation-full nav ul{
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 87%;
     }
 
     .items{
@@ -1014,9 +1010,6 @@ section{
         width: 25px;
         cursor: pointer;
         margin-top: 0.2em;
-        position: relative;
-        top: 1px;
-        right: 50px;
         
     }
 
@@ -1085,7 +1078,7 @@ section{
 
 
 
-  
+
 
 
 
