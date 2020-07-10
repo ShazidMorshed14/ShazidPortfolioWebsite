@@ -34,7 +34,7 @@ body{
 header{
     grid-area: header;
     background-color:black;
-    z-index: 100;
+    z-index: 5;
     opacity: 1;
     top: 0;
     left: 0;
@@ -139,8 +139,8 @@ header{
 /*****************navbar section**********************/
  
 header{
-   
-    
+    position: fixed;
+    width: 100%;
     background-color: black;
 }
 
@@ -874,7 +874,7 @@ section{
         margin: 0;
         display: grid;
         grid-template-columns:100%;
-        grid-template-rows: auto 1fr 25% 43% 43% 43% 43% 35% 50% 50% 50% 50% 150% 50% 100% 30%;
+        grid-template-rows: auto 1fr 25% 43% 43% 43% 43% 35% 60% 60% 60% 60% 160% 50% 100% 30%;
         grid-template-areas: 
         "header "
         "top"
@@ -1083,8 +1083,20 @@ section{
 
 
 
+   /***********problem part***********/
+   .project1-container,.project2-container,.project3-container,.project4-container{
+       max-width: 500px;
+       height: auto;
+   }
 
+   .potfolio-logo img{
+          height: 40px;
+          width: auto;
+   }
 
+   .project1-container p,.project2-container p,.project3-container p,.project4-container p{
+       font-size: 0.9rem;
+   }
 
 
 
