@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 body,html{
-    
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
@@ -33,7 +33,7 @@ header{
     position: fixed;
     z-index: 100;
     opacity: 0.9;
-    
+    width: 100%;
     
     
     
@@ -869,7 +869,7 @@ section{
         margin: 0;
         display: grid;
         grid-template-columns:100%;
-        grid-template-rows: auto 1fr 25% 43% 43% 43% 43% 35% 60% 60% 60% 50% 170% 50% 100% 30%;
+        grid-template-rows: auto 1fr 25% 43% 43% 43% 43% 35% 50% 50% 50% 50% 150% 50% 100% 30%;
         grid-template-areas: 
         "header "
         "top"
@@ -995,7 +995,7 @@ section{
      .navigation-full nav ul{
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 87%;
     }
 
     .items{
@@ -1010,9 +1010,6 @@ section{
         width: 25px;
         cursor: pointer;
         margin-top: 0.2em;
-        position: absolute;
-        top: 10px;
-        right: 10px;
         
     }
 
@@ -1081,7 +1078,7 @@ section{
 
 
 
-  
+
 
 
 
